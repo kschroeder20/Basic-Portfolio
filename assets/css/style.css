@@ -12,28 +12,6 @@ body{
   overflow: hidden;
 }
 
-ul{
-  padding: 0;
-  margin: 0;
-}
-
-.button_quick_contact{
-  height: 38px;
-  background: #4e4e50;
-  border: none;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: #ffffff;
-}
-
-.dark{
-  padding: 15px;
-  background: #4e4e50;
-  color: #ffffff;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
 /* Header */
 header{
   background:#822222;
@@ -87,77 +65,6 @@ header a:hover{
   font-weight: bold;
 }
 
-/* Showcase */
-
-#showcase {
-  min-height: 400px;
-  background: url('../img/highlight.jpg') no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: right bottom;
-  text-align: center;
-  color: #ffffff; 
-}
-
-#showcase h1{
-  margin-top: 100px;
-  font-size: 55px;
-  margin-bottom: 10px;
-  opacity: 1 !important;
-  font-weight: bold;
-}
-
-#showcase p{
-  font-size: 20px;
-  font-weight: bold;
-}
-
-/* Quick contact */
-
-#quick-contact{
-  border-top: #4e4e50 3px solid;
-  border-bottom: #4e4e50 3px solid;
-  color: #ffffff;
-  background: #822222;
-}
-
-#quick-contact h1{
-  float: left;
-
-}
-
-#quick-contact form{
-  float: right;
-  margin-top: 15px;
-
-}
-
-#quick-contact input[type="email"]{
-  padding: 4px;
-  height: 25px;
-  width: 250px;
-}
-
-/* boxes */
-
-#boxes{
-  margin-top: 20px;
-  color: #ffffff;
-}
-
-#boxes .box{
-  float: left;
-  width: 30%;
-  padding: 10px;
-  text-align: center;
-  color: #4e4e50;
-}
-
-#boxes .box img{
-  height: 90px;
-}
 
 /* Sidebar */
 aside#sidebar{
