@@ -10,6 +10,7 @@ body{
     background-image: url("../images/white-waves.png");
     padding: 0;
     margin: 0;
+    
 }
 /* Header */
 header{
@@ -141,6 +142,9 @@ footer{
   color: #ffffff;
   background-color: #4e4e50;
   text-align: center;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
 }
 
 /* Media Quiries 
