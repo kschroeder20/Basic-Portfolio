@@ -5,17 +5,14 @@
     overflow: hidden;
     height: 100%;
 }
-
 html, body{
     height: 100%;
     margin: 0;
 }
-
 .content{
   min-height: 100%;
   margin-bottom: -50px;
 }
-
 body{
 	background-image: url("../images/white-waves.png");
 	padding: 0;
@@ -24,11 +21,9 @@ body{
 	color: #777777;
     line-height: 20px; 
 }
-
 h2{
     color: #4aaaa5;
 }
-
 
 /* Header */
 header{
@@ -65,6 +60,7 @@ header li{
 	display:inline;
 	padding: 20px;
 }
+
 /* About Me Content*/
 .showcase-box{
 	box-sizing: border-box;
@@ -83,6 +79,7 @@ header li{
 .showcase-box h2{
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
+
 /*Contact Form*/
 .basic-info{
 	width: 100%;
@@ -107,34 +104,28 @@ header li{
 	display: inline-block;
 	font-size: 16px;
 }
+
 /* Portfolio Boxes */
 #box-1{
 	background-image: url("../images/coming-soon.jpeg");
-	background-size: contain;
-	background-position: center;
-	float: left;
-	width: 30%;
-	height: 200px;
-	text-align: center;
-	color: #4e4e50;
-	border: 1px solid #cccccc;
-	margin: 5px;
 }
 #box-2{
 	background-image: url("../images/coming-soon.jpeg");
-	background-size: contain;
-	background-position: center;
-	float: left;
-	width: 30%;
-	height: 200px;
-	text-align: center;
-	color: #4e4e50;
-	border: 1px solid #cccccc;
-	margin: 5px;
 }
 #box-3{
 	background-image: url("../images/coming-soon.jpeg");
-	background-size: contain;
+}
+#box-4{
+	background-image: url("../images/coming-soon.jpeg");
+}
+#box-5{
+	background-image: url("../images/coming-soon.jpeg");
+}
+#box-6{
+	background-image: url("../images/coming-soon.jpeg");
+}
+.box{
+    background-size: contain;
 	background-position: center;
 	float: left;
 	width: 30%;
@@ -151,6 +142,7 @@ header li{
 	width: 100%;
 	margin-top: 140px;
 }
+
 /* Footer */
 footer{
     min-width: 100%;
